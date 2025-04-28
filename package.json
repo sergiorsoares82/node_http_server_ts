@@ -1,0 +1,17 @@
+{
+	"name": "typescript-node",
+	"version": "1.0.0",
+	"description": "A simple TypeScript Node.js project",
+	"main": "dist/index.js",
+	"scripts": {
+		"start": "tsx src/index.ts",
+		"watch": "tsc --watch",
+		"dev": "tsx src/index.ts"
+	},
+	"devDependencies": {
+		"@types/node": "^22.15.2",
+		"nodemon": "^3.1.10",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.8.3"
+	}
+}
